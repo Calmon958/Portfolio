@@ -1,0 +1,33 @@
+.hero {
+    text-align: center;
+    padding: 2em;
+    background-color: #006d77;
+    color: edf6f9;
+}
+
+.profile-image {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1em;
+    transition: width 0.3s, height 0.3s;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+nav a:hover {
+    color: #ffe600;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+/* Hero.css */
+.hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em; /* Adjust as needed */
+    color: #333; /* Adjust color as needed */
+}
+
